@@ -1,14 +1,39 @@
 .card{
-    height: 550px;
-    width: 300px;
+    height: 800px;
+    width: 400px;
     background-color: rgb(227, 224, 224);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
+    flex-wrap:wrap;
+    flex-direction: column;
 }
 .image{
-    height: 500px;
+    height: 440px;
     width: 250px;
     background-image: url("Card2.jpeg");
     background-size: cover;
+    border-bottom-left-radius: 6px solid white;
+}
+.name{
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align:left ;
+    font-size: larger;
+    font-weight: bolder;
+}
+.left{
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align:left ;
+
+}
+
+.details{
+    height: 150px;
+    width: 250px;
+    background-color: rgb(255, 252, 252);
 }
