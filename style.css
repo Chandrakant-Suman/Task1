@@ -108,6 +108,7 @@
   }
 
   .label {
+    font-weight: bold;
     font-size: 14px;
-    color: #555555;
+    color: #e74c3c;
   }
