@@ -1,1 +1,14 @@
-
+.card{
+    height: 550px;
+    width: 300px;
+    background-color: rgb(227, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 500px;
+    width: 250px;
+    background-image: url("Card2.jpeg");
+    background-size: cover;
+}
