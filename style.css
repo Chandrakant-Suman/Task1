@@ -1,6 +1,10 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
 .card{
-    height: 800px;
-    width: 400px;
+    height: 1000px;
+    width: 600px;
     background-color: rgb(227, 224, 224);
     display: flex;
     justify-content: center;
@@ -9,19 +13,50 @@
     flex-direction: column;
 }
 .image{
-    height: 440px;
-    width: 250px;
-    background-image: url("Card2.jpeg");
+    height: 430px;
+    width: 400px;
+    background-image: url("Card21.jpeg");
     background-size: cover;
-    border-bottom-left-radius: 6px solid white;
+    border-color: white;
+    border-bottom-left-radius: 12% ;
+
 }
 .name{
     color: white;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 20px;
     text-align:left ;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: bolder;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.desc{
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 20px;
+    text-align:left ;
+    font-size: x-small;
+    font-weight: bolder;
+}
+.desc{
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 20px;
+    text-align:left ;
+    font-size: x-small;
+    font-weight: bolder;
+}
+.num{
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 20px;
+    text-align:left ;
+    font-size: xx-large;
+    font-weight: normal;
 }
 .left{
     color: white;
@@ -29,11 +64,50 @@
     margin-top: 20px;
     margin-left: 20px;
     text-align:left ;
-
 }
 
 .details{
-    height: 150px;
-    width: 250px;
+    height: 200px;
+    width: 400px;
     background-color: rgb(255, 252, 252);
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #f0f0f0;
+  }
+
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .icon {
+    font-size: 30px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+
+  .number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+
+  .label {
+    font-size: 14px;
+    color: #555555;
+  }
