@@ -1,2 +1,2 @@
 # Task1
-CSS Battle
+CSS Battle | Avishkar (MNNIT Technical Fest) Event 
